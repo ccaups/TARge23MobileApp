@@ -11,12 +11,12 @@ namespace SciCalc
                 .UseMauiApp<App>()
                 .ConfigureFonts(fonts =>
                 {
-                    fonts.AddFont("Cairo-ExtraLight.ttf", "ExtraLightFont");
-                    fonts.AddFont("Cairo-Light.ttf", "LightFont");
+                    fonts.AddFont("Cairo-Light.ttf", "RegularFont");
+                    fonts.AddFont("Cairo-ExtraLight.ttf", "LightFont");
                 });
 
 #if DEBUG
-    		builder.Logging.AddDebug();
+            builder.Logging.AddDebug();
 #endif
 
             return builder.Build();
