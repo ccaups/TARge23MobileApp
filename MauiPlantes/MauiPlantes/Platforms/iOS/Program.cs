@@ -1,7 +1,7 @@
 ﻿using ObjCRuntime;
 using UIKit;
 
-namespace MauiPlantes
+namespace MauiPlanets
 {
     public class Program
     {
