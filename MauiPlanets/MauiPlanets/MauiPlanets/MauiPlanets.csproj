@@ -57,6 +57,208 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <None Remove="Resources\Images\Planets\ceres_1.jpg" />
+	  <None Remove="Resources\Images\Planets\ceres_2.jpg" />
+	  <None Remove="Resources\Images\Planets\ceres_3.jpeg" />
+	  <None Remove="Resources\Images\Planets\ceres_4.svg" />
+	  <None Remove="Resources\Images\Planets\earth_1.png" />
+	  <None Remove="Resources\Images\Planets\earth_2.jpg" />
+	  <None Remove="Resources\Images\Planets\earth_3.jpg" />
+	  <None Remove="Resources\Images\Planets\earth_4.jpg" />
+	  <None Remove="Resources\Images\Planets\eris_1.jpg" />
+	  <None Remove="Resources\Images\Planets\eris_2.jpg" />
+	  <None Remove="Resources\Images\Planets\eris_3.jpg" />
+	  <None Remove="Resources\Images\Planets\Haumea_1.jpg" />
+	  <None Remove="Resources\Images\Planets\Haumea_2.png" />
+	  <None Remove="Resources\Images\Planets\Haumea_3.png" />
+	  <None Remove="Resources\Images\Planets\jupiter_1.png" />
+	  <None Remove="Resources\Images\Planets\jupiter_2.jpg" />
+	  <None Remove="Resources\Images\Planets\jupiter_3.jpg" />
+	  <None Remove="Resources\Images\Planets\jupiter_4.jpg" />
+	  <None Remove="Resources\Images\Planets\makemake_1.png" />
+	  <None Remove="Resources\Images\Planets\makemake_2.png" />
+	  <None Remove="Resources\Images\Planets\makemake_3.png" />
+	  <None Remove="Resources\Images\Planets\makemake_4.png" />
+	  <None Remove="Resources\Images\Planets\mars_1.jpg" />
+	  <None Remove="Resources\Images\Planets\mars_2.jpg" />
+	  <None Remove="Resources\Images\Planets\mars_3.jpg" />
+	  <None Remove="Resources\Images\Planets\mars_4.png" />
+	  <None Remove="Resources\Images\Planets\mercury_1.png" />
+	  <None Remove="Resources\Images\Planets\mercury_2.jpg" />
+	  <None Remove="Resources\Images\Planets\mercury_3.jpg" />
+	  <None Remove="Resources\Images\Planets\neptune_1.jpg" />
+	  <None Remove="Resources\Images\Planets\neptune_2.jpg" />
+	  <None Remove="Resources\Images\Planets\neptune_3.jpg" />
+	  <None Remove="Resources\Images\Planets\neptune_4.jpg" />
+	  <None Remove="Resources\Images\Planets\pluto_1.png" />
+	  <None Remove="Resources\Images\Planets\pluto_2.png" />
+	  <None Remove="Resources\Images\Planets\pluto_3.jpg" />
+	  <None Remove="Resources\Images\Planets\pluto_4.jpg" />
+	  <None Remove="Resources\Images\Planets\saturn_1.jpg" />
+	  <None Remove="Resources\Images\Planets\saturn_2.jpg" />
+	  <None Remove="Resources\Images\Planets\saturn_3.jpg" />
+	  <None Remove="Resources\Images\Planets\saturn_4.jpg" />
+	  <None Remove="Resources\Images\Planets\uranus_1.jpg" />
+	  <None Remove="Resources\Images\Planets\uranus_2.jpg" />
+	  <None Remove="Resources\Images\Planets\uranus_3.jpg" />
+	  <None Remove="Resources\Images\Planets\uranus_4.jpg" />
+	  <None Remove="Resources\Images\Planets\venus_1.jpg" />
+	  <None Remove="Resources\Images\Planets\venus_2.jpg" />
+	  <None Remove="Resources\Images\Planets\venus_3.jpg" />
+	  <None Remove="Resources\Images\Planets\venus_4.jpg" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <MauiImage Include="Resources\Images\Planets\ceres_1.jpg">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </MauiImage>
+	  <MauiImage Include="Resources\Images\Planets\ceres_2.jpg">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </MauiImage>
+	  <MauiImage Include="Resources\Images\Planets\ceres_3.jpeg">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </MauiImage>
+	  <MauiImage Include="Resources\Images\Planets\ceres_4.svg">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </MauiImage>
+	  <MauiImage Include="Resources\Images\Planets\earth_1.png">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </MauiImage>
+	  <MauiImage Include="Resources\Images\Planets\earth_2.jpg">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </MauiImage>
+	  <MauiImage Include="Resources\Images\Planets\earth_3.jpg">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </MauiImage>
+	  <MauiImage Include="Resources\Images\Planets\earth_4.jpg">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </MauiImage>
+	  <MauiImage Include="Resources\Images\Planets\eris_1.jpg">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </MauiImage>
+	  <MauiImage Include="Resources\Images\Planets\eris_2.jpg">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </MauiImage>
+	  <MauiImage Include="Resources\Images\Planets\eris_3.jpg">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </MauiImage>
+	  <MauiImage Include="Resources\Images\Planets\haumea_1.jpg">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </MauiImage>
+	  <MauiImage Include="Resources\Images\Planets\haumea_2.png">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </MauiImage>
+	  <MauiImage Include="Resources\Images\Planets\haumea_3.png">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </MauiImage>
+	  <MauiImage Include="Resources\Images\Planets\jupiter_1.png">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </MauiImage>
+	  <MauiImage Include="Resources\Images\Planets\jupiter_2.jpg">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </MauiImage>
+	  <MauiImage Include="Resources\Images\Planets\jupiter_3.jpg">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </MauiImage>
+	  <MauiImage Include="Resources\Images\Planets\jupiter_4.jpg">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </MauiImage>
+	  <MauiImage Include="Resources\Images\Planets\makemake_1.png">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </MauiImage>
+	  <MauiImage Include="Resources\Images\Planets\makemake_2.png">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </MauiImage>
+	  <MauiImage Include="Resources\Images\Planets\makemake_3.png">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </MauiImage>
+	  <MauiImage Include="Resources\Images\Planets\makemake_4.png">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </MauiImage>
+	  <MauiImage Include="Resources\Images\Planets\mars_1.jpg">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </MauiImage>
+	  <MauiImage Include="Resources\Images\Planets\mars_2.jpg">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </MauiImage>
+	  <MauiImage Include="Resources\Images\Planets\mars_3.jpg">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </MauiImage>
+	  <MauiImage Include="Resources\Images\Planets\mars_4.png">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </MauiImage>
+	  <MauiImage Include="Resources\Images\Planets\mercury_1.png">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </MauiImage>
+	  <MauiImage Include="Resources\Images\Planets\mercury_2.jpg">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </MauiImage>
+	  <MauiImage Include="Resources\Images\Planets\mercury_3.jpg">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </MauiImage>
+	  <MauiImage Include="Resources\Images\Planets\neptune_1.jpg">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </MauiImage>
+	  <MauiImage Include="Resources\Images\Planets\neptune_2.jpg">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </MauiImage>
+	  <MauiImage Include="Resources\Images\Planets\neptune_3.jpg">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </MauiImage>
+	  <MauiImage Include="Resources\Images\Planets\neptune_4.jpg">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </MauiImage>
+	  <MauiImage Include="Resources\Images\Planets\pluto_1.png">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </MauiImage>
+	  <MauiImage Include="Resources\Images\Planets\pluto_2.png">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </MauiImage>
+	  <MauiImage Include="Resources\Images\Planets\pluto_3.jpg">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </MauiImage>
+	  <MauiImage Include="Resources\Images\Planets\pluto_4.jpg">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </MauiImage>
+	  <MauiImage Include="Resources\Images\Planets\saturn_1.jpg">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </MauiImage>
+	  <MauiImage Include="Resources\Images\Planets\saturn_2.jpg">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </MauiImage>
+	  <MauiImage Include="Resources\Images\Planets\saturn_3.jpg">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </MauiImage>
+	  <MauiImage Include="Resources\Images\Planets\saturn_4.jpg">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </MauiImage>
+	  <MauiImage Include="Resources\Images\Planets\uranus_1.jpg">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </MauiImage>
+	  <MauiImage Include="Resources\Images\Planets\uranus_2.jpg">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </MauiImage>
+	  <MauiImage Include="Resources\Images\Planets\uranus_3.jpg">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </MauiImage>
+	  <MauiImage Include="Resources\Images\Planets\uranus_4.jpg">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </MauiImage>
+	  <MauiImage Include="Resources\Images\Planets\venus_1.jpg">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </MauiImage>
+	  <MauiImage Include="Resources\Images\Planets\venus_2.jpg">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </MauiImage>
+	  <MauiImage Include="Resources\Images\Planets\venus_3.jpg">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </MauiImage>
+	  <MauiImage Include="Resources\Images\Planets\venus_4.jpg">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </MauiImage>
+	</ItemGroup>
+
+	<ItemGroup>
 		<PackageReference Include="Microsoft.Maui.Controls" Version="$(MauiVersion)" />
 		<PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="$(MauiVersion)" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="8.0.0" />

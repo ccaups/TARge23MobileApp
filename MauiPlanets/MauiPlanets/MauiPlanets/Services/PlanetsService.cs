@@ -5,7 +5,7 @@ namespace MauiPlanets.Services
 {
     internal class PlanetsService
     {
-        private static List<Planet> planets = new()
+        private static List<Planet> planets = new ()
         {
             new()
             {
@@ -16,16 +16,16 @@ namespace MauiPlanets.Services
                 AccentColorStart = Color.FromArgb("#353535"),
                 AccentColorEnd = Color.FromArgb("#8d9098"),
                 //Images = new()
-                //{
-                     
+                //{ 
                 //    //"https://cdn.theatlantic.com/thumbor/D15rQggf6357X1-u6VpTD2N1yQE=/0x27:1041x613/976x549/media/img/mt/2017/04/MercuryImage/original.jpg",
                 //    //"https://cdn.mos.cms.futurecdn.net/fjbeeRiPRQjQNhizwy7cWX-1200-80.jpg",
                 //    //"https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Mercury_in_true_color.jpg/290px-Mercury_in_true_color.jpg",
                 //}
-                Images = new List<string>
+                Images = new()
                 {
-                    "Planets/mercury_1.png",
-                    "Planets/mercury_2.png"
+                    "mercury_1.png",
+                    "mercury_2.jpg",
+                    "mercury_3.jpg"
                 }
             },
             new()
@@ -36,12 +36,19 @@ namespace MauiPlanets.Services
                 Description = "Of all the planets, Venus is the one most similar to Earth. In fact, Venus is often called Earth's “sister” planet. As similar as it is in some ways, however, it is also very different in others. ",
                 AccentColorStart = Color.FromArgb("#a6393b"),
                 AccentColorEnd = Color.FromArgb("#d17f21"),
-                Images = new()
+                //Images = new ()
+                //{
+                //    "https://solarsystem.nasa.gov/system/feature_items/images/143_Venus-800x600.jpg",
+                //    "https://solarsystem.nasa.gov/system/feature_items/images/147_Hubble_Venus_Clouds-800x600.jpg",
+                //    "https://solarsystem.nasa.gov/system/feature_items/images/146_venus_carousel_3.jpg",
+                //    "https://solarsystem.nasa.gov/system/feature_items/images/144_PIA00485_Venus_Caldera-800.jpg"
+                //}
+                Images= new()
                 {
-                    "https://solarsystem.nasa.gov/system/feature_items/images/143_Venus-800x600.jpg",
-                    "https://solarsystem.nasa.gov/system/feature_items/images/147_Hubble_Venus_Clouds-800x600.jpg",
-                    "https://solarsystem.nasa.gov/system/feature_items/images/146_venus_carousel_3.jpg",
-                    "https://solarsystem.nasa.gov/system/feature_items/images/144_PIA00485_Venus_Caldera-800.jpg"
+                    "venus_1.jpg",
+                    "venus_2.jpg",
+                    "venus_3.jpg",
+                    "venus_4.jpg"
                 }
             },
             new()
@@ -52,11 +59,19 @@ namespace MauiPlanets.Services
                 Description = "The Earth is the only planet known where life exists. Almost 1.5 million species of animals and plants have been discovered so far, and many more have yet to be found. While other planets may have small amounts of ice or steam, the Earth is 2/3 water. Earth has perfect conditions for a breathable atmosphere. ",
                 AccentColorStart = Color.FromArgb("#0e3d68"),
                 AccentColorEnd = Color.FromArgb("#2e97c7"),
-                Images = new()
+                //Images = new()
+                //{
+                //    "https://solarsystem.nasa.gov/system/feature_items/images/68_epicearthmoonstill_800.png",
+                //    ""
+                //    "https://solarsystem.nasa.gov/system/feature_items/images/69_earth_carousel_3.jpg",
+                //    "https://images.newscientist.com/wp-content/uploads/2019/09/09162708/iss048-e-2035_lrg.jpg"
+                //}
+                Images= new()
                 {
-                    "https://solarsystem.nasa.gov/system/feature_items/images/68_epicearthmoonstill_800.png",
-                    "https://solarsystem.nasa.gov/system/feature_items/images/69_earth_carousel_3.jpg",
-                    "https://images.newscientist.com/wp-content/uploads/2019/09/09162708/iss048-e-2035_lrg.jpg"
+                    "earth_1.png",
+                    "earth_2.jpg",
+                    "earth_3.jpg",
+                    "earth_4.jpg"
                 }
             },
             new()
@@ -72,11 +87,18 @@ namespace MauiPlanets.Services
                 "kind of life really does exist on Mars? ",
                 AccentColorStart = Color.FromArgb("#a23036"),
                 AccentColorEnd = Color.FromArgb("#eb3333"),
-                Images = new()
+                //Images = new()
+                //{
+                //    "https://researchfdi.com/wp-content/uploads/2021/10/8944_1-PIA24546-1280.jpeg",
+                //    "https://www.worldatlas.com/r/w1300-q80/upload/bb/c3/32/shutterstock-1041249343.jpg",
+                //    "https://www.openaccessgovernment.org/wp-content/uploads/2021/04/dreamstime_xxl_121672573-scaled.jpg"
+                //}
+                Images= new()
                 {
-                    "https://researchfdi.com/wp-content/uploads/2021/10/8944_1-PIA24546-1280.jpeg",
-                    "https://www.worldatlas.com/r/w1300-q80/upload/bb/c3/32/shutterstock-1041249343.jpg",
-                    "https://www.openaccessgovernment.org/wp-content/uploads/2021/04/dreamstime_xxl_121672573-scaled.jpg"
+                    "mars_1.jpg",
+                    "mars_2.jpg",
+                    "mars_3.jpg",
+                    "mars_4.jpg"
                 }
             },
 
@@ -93,11 +115,18 @@ namespace MauiPlanets.Services
                 "that of the Sun. ",
                 AccentColorStart = Color.FromArgb("#9d4a40"),
                 AccentColorEnd = Color.FromArgb("#cd8026"),
-                Images = new()
+                //Images = new()
+                //{
+                //    "https://solarsystem.nasa.gov/system/feature_items/images/11_Full_Jupiter-800.jpg",
+                //    "https://solarsystem.nasa.gov/system/feature_items/images/10_Jupiter_Io_Juno-800.jpg",
+                //    "https://solarsystem.nasa.gov/system/feature_items/images/13_PIA24237_Jupiter_Cyclones-800.jpg"
+                //}
+                Images= new()
                 {
-                    "https://solarsystem.nasa.gov/system/feature_items/images/11_Full_Jupiter-800.jpg",
-                    "https://solarsystem.nasa.gov/system/feature_items/images/10_Jupiter_Io_Juno-800.jpg",
-                    "https://solarsystem.nasa.gov/system/feature_items/images/13_PIA24237_Jupiter_Cyclones-800.jpg"
+                    "jupiter_1.png",
+                    "jupiter_2.jpg",
+                    "jupiter_3.jpg",
+                    "jupiter_4.jpg"
                 }
             },
 
@@ -114,12 +143,19 @@ namespace MauiPlanets.Services
                             "density of Earth, but is over 95 times more massive.",
                 AccentColorStart = Color.FromArgb("#996237"),
                 AccentColorEnd = Color.FromArgb("#c6502f"),
-                Images = new()
+                //Images = new()
+                //{
+                //    "https://solarsystem.nasa.gov/system/feature_items/images/151_saturn_carousel_1.jpg",
+                //    "https://solarsystem.nasa.gov/system/feature_items/images/152_saturn_carousel_2.jpg",
+                //    "https://solarsystem.nasa.gov/system/feature_items/images/155_saturn_carousel_5.jpg",
+                //    "https://solarsystem.nasa.gov/system/feature_items/images/153_saturn_carousel_3.jpg"
+                //}
+                Images= new()
                 {
-                    "https://solarsystem.nasa.gov/system/feature_items/images/151_saturn_carousel_1.jpg",
-                    "https://solarsystem.nasa.gov/system/feature_items/images/152_saturn_carousel_2.jpg",
-                    "https://solarsystem.nasa.gov/system/feature_items/images/155_saturn_carousel_5.jpg",
-                    "https://solarsystem.nasa.gov/system/feature_items/images/153_saturn_carousel_3.jpg"
+                    "saturn_1.jpg",
+                    "saturn_2.jpg",
+                    "saturn_3.jpg",
+                    "saturn_4.jpg"
                 }
             },
 
@@ -136,11 +172,18 @@ namespace MauiPlanets.Services
                             "planetary mass in the Solar System.",
                 AccentColorStart = Color.FromArgb("#9d4a40"),
                 AccentColorEnd = Color.FromArgb("#996237"),
-                Images = new()
+                //Images = new()
+                //{
+                //    "https://solarsystem.nasa.gov/system/feature_items/images/88_carousel_uranus.jpg",
+                //    "https://solarsystem.nasa.gov/system/feature_items/images/89_uranus_carousel_1.jpg",
+                //    "https://images-assets.nasa.gov/image/0301099/0301099~large.jpg"
+                //}
+                Images= new()
                 {
-                    "https://solarsystem.nasa.gov/system/feature_items/images/88_carousel_uranus.jpg",
-                    "https://solarsystem.nasa.gov/system/feature_items/images/89_uranus_carousel_1.jpg",
-                    "https://solarsystem.nasa.gov/system/feature_items/images/88_carousel_uranus.jpg"
+                    "uranus_1.jpg",
+                    "uranus_2.jpg",
+                    "uranus_3.jpg",
+                    "uranus_4.jpg"
                 }
             },
 
@@ -159,12 +202,18 @@ namespace MauiPlanets.Services
                 "symbol ♆, representing Neptune's trident.",
                 AccentColorStart = Color.FromArgb("#0c293d"),
                 AccentColorEnd = Color.FromArgb("#26abe0"),
-                Images = new()
+                //Images = new()
+                //{
+                //    "https://images-assets.nasa.gov/image/PIA01492/PIA01492~large.jpg?w=1920&h=1917&fit=clip&crop=faces%2Cfocalpoint",
+                //    "https://scx2.b-cdn.net/gfx/news/2016/1-whatisthesur.jpg"
+                //}
+                Images= new()
                 {
-                    "https://images-assets.nasa.gov/image/PIA01492/PIA01492~large.jpg?w=1920&h=1917&fit=clip&crop=faces%2Cfocalpoint",
-                    "https://scx2.b-cdn.net/gfx/news/2016/1-whatisthesur.jpg"
+                    "neptune_1.jpg",
+                    "neptune_2.jpg",
+                    "neptune_3.jpg",
+                    "neptune_4.jpg"
                 }
-
             },
 
             new()
@@ -179,14 +228,20 @@ namespace MauiPlanets.Services
                 " only one sixth the mass of Earth's moon, and one third its volume. Pluto was recognized as a planet until 2006. ",
                 AccentColorStart = Color.FromArgb("#733f22"),
                 AccentColorEnd = Color.FromArgb("#efb493"),
-                Images = new()
+                //Images = new()
+                //{
+                //    "https://science.nasa.gov/wp-content/uploads/2024/03/pluto-new-horizons-pia20291-16x9-1.jpg",
+                //    "https://science.nasa.gov/wp-content/uploads/2023/06/color-image-of-pluto-pia20291-1.jpg?w=1536&format=webp",
+                //    "https://images-assets.nasa.gov/image/PIA20037/PIA20037~orig.jpg?w=1041&h=717&fit=clip&crop=faces%2Cfocalpoint",
+                //    "https://images-assets.nasa.gov/image/PIA20544/PIA20544~orig.jpg?w=855&h=582&fit=clip&crop=faces%2Cfocalpoint"
+                //}
+                Images= new()
                 {
-                    "https://science.nasa.gov/wp-content/uploads/2024/03/pluto-new-horizons-pia20291-16x9-1.jpg",
-                    "https://science.nasa.gov/wp-content/uploads/2023/06/color-image-of-pluto-pia20291-1.jpg?w=1536&format=webp",
-                    "https://images-assets.nasa.gov/image/PIA20037/PIA20037~orig.jpg?w=1041&h=717&fit=clip&crop=faces%2Cfocalpoint",
-                    "https://images-assets.nasa.gov/image/PIA20544/PIA20544~orig.jpg?w=855&h=582&fit=clip&crop=faces%2Cfocalpoint"
+                    "pluto_1.jpg",
+                    "pluto_2.jpg",
+                    "pluto_3.jpg",
+                    "pluto_4.jpg"
                 }
-
             },
 
             new()
@@ -205,12 +260,18 @@ namespace MauiPlanets.Services
                 "volume. Both Eris and Pluto have a surface area that is comparable to the area of Russia or South America. ",
                 AccentColorStart = Color.FromArgb("#453c3c"),
                 AccentColorEnd = Color.FromArgb("#808080"),
-                Images = new()
+                //Images = new()
+                //{
+                //    "https://science.nasa.gov/wp-content/uploads/2023/06/Artists_c_oncept_of_Eris_and_Dysnomia_far_from_the_Sun-jpeg.webp?w=1536&format=webp",
+                //    "https://images-assets.nasa.gov/image/PIA03034/PIA03034~orig.jpg?w=603&h=200&fit=clip&crop=faces%2Cfocalpoint",
+                //     "https://cdn.mos.cms.futurecdn.net/ufTfK2rbpQXZBjt2ZPsm57.jpg.webp"
+                //}
+                Images= new()
                 {
-                    "https://science.nasa.gov/wp-content/uploads/2023/06/Artists_c_oncept_of_Eris_and_Dysnomia_far_from_the_Sun-jpeg.webp?w=1536&format=webp",
-                    "https://images-assets.nasa.gov/image/PIA03034/PIA03034~orig.jpg?w=603&h=200&fit=clip&crop=faces%2Cfocalpoint"
+                    "eris_1.jpg",
+                    "eris_2.jpg",
+                    "eris_3.jpg"
                 }
-
             },
 
             new()
@@ -226,18 +287,24 @@ namespace MauiPlanets.Services
                 "the third-largest known trans-Neptunian object, after Eris and Pluto, and approximately the size of Uranus's moon Titania. ",
                 AccentColorStart = Color.FromArgb("#82590c"),
                 AccentColorEnd = Color.FromArgb("#d4a959"),
-                Images = new()
+                //Images = new()
+                //{
+                //    "https://www.bobthealien.co.uk/bobpics/haumeaaigenerated.jpg",
+                //    "https://i0.wp.com/spacenews.com/wp-content/uploads/2022/10/Screen-Shot-2022-10-18-at-6.38.28-PM.png?fit=864%2C672&ssl=1",
+                //    "https://i0.wp.com/spacenews.com/wp-content/uploads/2022/10/Screen-Shot-2022-10-18-at-6.38.28-PM.png?fit=864%2C672&ssl=1"
+                //}
+                Images= new()
                 {
-                    "https://www.bobthealien.co.uk/bobpics/haumeaaigenerated.jpg",
-                    "https://upload.wikimedia.org/wikipedia/commons/2/2b/Haumea_Hubble.png"
+                    "haumea_1.jpg",
+                    "haumea_2.png",
+                    "haumea_3.png"
                 }
-
             },
 
             new()
             {
                 Name = "Makemake",
-                Subtitle = "codename \"Easterbunny\"",
+                Subtitle = "Second-brightest object in the Kuiper Belt.",
                 HeroImage = "makemake.png",
                 Description = "Makemake[e] (minor-planet designation 136472 Makemake) is a dwarf planet and the second-largest " +
                 "of what are known as the classical population of Kuiper belt objects, with a diameter approximately that of " +
@@ -245,18 +312,26 @@ namespace MauiPlanets.Services
                 "temperature, about 40 K (−230 °C), means its surface is covered with methane, ethane, and possibly nitrogen ices.",
                 AccentColorStart = Color.FromArgb("#b35b1d"),
                 AccentColorEnd = Color.FromArgb("#d6a760"),
-                Images = new()
+                //Images = new()
+                //{
+                //    "https://www.solarsystemscope.com/spacepedia/images/handbook/renders/makemake.png",
+                //    "https://cdn.mos.cms.futurecdn.net/8QBGiy9BhmttKdGeAAZpn8.jpg.webp",
+                //    "https://f10.pmo.ee/W3lXLK7H3moKsncEysrU01RuwtM=/1442x0/filters:format(webp)/nginx/o/2012/11/22/1447192t1hf1e3.jpg",
+                //    "https://astronz.nz/cdn/shop/articles/makemake.png?v=1682129134"
+                //}
+                Images= new()
                 {
-                    "https://www.solarsystemscope.com/spacepedia/images/handbook/renders/makemake.png",
-                    "https://cdn.mos.cms.futurecdn.net/8QBGiy9BhmttKdGeAAZpn8.jpg.webp"
+                    "makemake_1.jpg",
+                    "makemake_2.jpg",
+                    "makemake_3.jpg",
+                    "makemake_4.jpg"
                 }
-
             },
 
             new()
             {
                 Name = "Ceres",
-                Subtitle = "Ceres is named for the Roman goddess of corn and harvests.",
+                Subtitle = "Only dwarf planet located in the inner solar system.",
                 HeroImage = "ceres.png",
                 Description = "Ceres (pronounced /ˈsɪəriːz/ SEER-eez), minor-planet designation 1 Ceres, is a dwarf " +
                 "planet in the middle main asteroid belt between the orbits of Mars and Jupiter. It was the first asteroid" +
@@ -265,16 +340,22 @@ namespace MauiPlanets.Services
                 "inside Neptune's orbit. ",
                 AccentColorStart = Color.FromArgb("#52482a"),
                 AccentColorEnd = Color.FromArgb("#8c8b88"),
-                Images = new()
+                //Images = new()
+                //{
+                //      "https://cdn.mos.cms.futurecdn.net/qnft8kRfeGWWLgaygo4fb9.jpg",
+                //      "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Ceres_-_RC3_-_Haulani_Crater_%2822381131691%29_%28cropped%29.jpg/435px-Ceres_-_RC3_-_Haulani_Crater_%2822381131691%29_%28cropped%29.jpg",
+                //      "https://upload.wikimedia.org/wikipedia/commons/1/12/Ceres_Cutaway-en.svg",
+                //      "https://solarsystem.nasa.gov/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBdUZsIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--ca667488ed16597e35eaab71acd42034ca4f56c2/PIA20180-16-640x350.jpg?disposition=inline"
+                //      
+                //}
+                Images= new()
                 {
-                    "https://cdn.mos.cms.futurecdn.net/qnft8kRfeGWWLgaygo4fb9.jpg",
-                    "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Ceres_-_RC3_-_Haulani_Crater_%2822381131691%29_%28cropped%29.jpg/435px-Ceres_-_RC3_-_Haulani_Crater_%2822381131691%29_%28cropped%29.jpg"
-
+                    "ceres_1.jpg",
+                    "ceres_2.jpg",
+                    "ceres_3.jpeg",
+                    "ceres_4.svg"
                 }
-
             }
-
-
         };
 
         public static List<Planet> GetFeaturedPlanets()
