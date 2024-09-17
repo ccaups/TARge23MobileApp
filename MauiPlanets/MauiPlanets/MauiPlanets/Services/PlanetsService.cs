@@ -62,14 +62,14 @@ namespace MauiPlanets.Services
                 //Images = new()
                 //{
                 //    "https://solarsystem.nasa.gov/system/feature_items/images/68_epicearthmoonstill_800.png",
-                //    ""
+                //    "https://www.worldatlas.com/r/w1300/upload/7d/db/c3/shutterstock-1558058690.jpg"
                 //    "https://solarsystem.nasa.gov/system/feature_items/images/69_earth_carousel_3.jpg",
                 //    "https://images.newscientist.com/wp-content/uploads/2019/09/09162708/iss048-e-2035_lrg.jpg"
                 //}
                 Images= new()
                 {
                     "earth_1.png",
-                    "earth_2.jpg",
+                    "earth_2.png",
                     "earth_3.jpg",
                     "earth_4.jpg"
                 }
@@ -89,6 +89,7 @@ namespace MauiPlanets.Services
                 AccentColorEnd = Color.FromArgb("#eb3333"),
                 //Images = new()
                 //{
+                //      "https://static.scientificamerican.com/sciam/cache/file/C454F5A6-536E-4C9F-AA6AF354BB85A85B_source.jpg?w=900",
                 //    "https://researchfdi.com/wp-content/uploads/2021/10/8944_1-PIA24546-1280.jpeg",
                 //    "https://www.worldatlas.com/r/w1300-q80/upload/bb/c3/32/shutterstock-1041249343.jpg",
                 //    "https://www.openaccessgovernment.org/wp-content/uploads/2021/04/dreamstime_xxl_121672573-scaled.jpg"
@@ -117,13 +118,14 @@ namespace MauiPlanets.Services
                 AccentColorEnd = Color.FromArgb("#cd8026"),
                 //Images = new()
                 //{
-                //    "https://solarsystem.nasa.gov/system/feature_items/images/11_Full_Jupiter-800.jpg",
-                //    "https://solarsystem.nasa.gov/system/feature_items/images/10_Jupiter_Io_Juno-800.jpg",
-                //    "https://solarsystem.nasa.gov/system/feature_items/images/13_PIA24237_Jupiter_Cyclones-800.jpg"
+                //      "https://i.err.ee/smartcrop?type=optimize&width=1072&aspectratio=16%3A10&url=https%3A%2F%2Fs.err.ee%2Fphoto%2Fcrop%2F2020%2F12%2F08%2F857593h49a8.jpg",
+                //      "https://solarsystem.nasa.gov/system/feature_items/images/11_Full_Jupiter-800.jpg",
+                //      "https://solarsystem.nasa.gov/system/feature_items/images/10_Jupiter_Io_Juno-800.jpg",
+                //      "https://solarsystem.nasa.gov/system/feature_items/images/13_PIA24237_Jupiter_Cyclones-800.jpg"
                 //}
                 Images= new()
                 {
-                    "jupiter_1.png",
+                    "jupiter_1.jpg",
                     "jupiter_2.jpg",
                     "jupiter_3.jpg",
                     "jupiter_4.jpg"
@@ -176,7 +178,8 @@ namespace MauiPlanets.Services
                 //{
                 //    "https://solarsystem.nasa.gov/system/feature_items/images/88_carousel_uranus.jpg",
                 //    "https://solarsystem.nasa.gov/system/feature_items/images/89_uranus_carousel_1.jpg",
-                //    "https://images-assets.nasa.gov/image/0301099/0301099~large.jpg"
+                //    "https://images-assets.nasa.gov/image/0301099/0301099~large.jpg",
+                //    "https://cdn.pixabay.com/photo/2024/08/16/12/04/ai-generated-8973557_1280.jpg"
                 //}
                 Images= new()
                 {
@@ -204,8 +207,11 @@ namespace MauiPlanets.Services
                 AccentColorEnd = Color.FromArgb("#26abe0"),
                 //Images = new()
                 //{
-                //    "https://images-assets.nasa.gov/image/PIA01492/PIA01492~large.jpg?w=1920&h=1917&fit=clip&crop=faces%2Cfocalpoint",
-                //    "https://scx2.b-cdn.net/gfx/news/2016/1-whatisthesur.jpg"
+                //      "https://images-assets.nasa.gov/image/PIA01492/PIA01492~large.jpg?w=1920&h=1917&fit=clip&crop=faces%2Cfocalpoint",
+                //      "https://scx2.b-cdn.net/gfx/news/2016/1-whatisthesur.jpg",
+                //      "https://en.wikipedia.org/wiki/Mini-Neptune#/media/File:Gasdwarf.jpg",
+                //      "https://scitechdaily.com/images/Neptune-Like-Exoplanet-Concept-Illustration.jpg"
+
                 //}
                 Images= new()
                 {
@@ -321,10 +327,10 @@ namespace MauiPlanets.Services
                 //}
                 Images= new()
                 {
-                    "makemake_1.jpg",
-                    "makemake_2.jpg",
-                    "makemake_3.jpg",
-                    "makemake_4.jpg"
+                    "makemake_1.png",
+                    "makemake_2.png",
+                    "makemake_3.png",
+                    "makemake_4.png"
                 }
             },
 

@@ -117,7 +117,7 @@
                     HorizontalOptions="Center"
                     WidthRequest="50"
                     HeightRequest="50"
-                    Source="profilepic.jpeg">
+                    Source="imgprofile.png">
                     <Image.Clip>
                         <EllipseGeometry
                             Center="25,25"
@@ -345,7 +345,7 @@
                     <Image
                         WidthRequest="30"
                         HeightRequest="30"
-                        Source="imgefavorite.png"
+                        Source="imgfavorite.png"
                         Grid.Row="0"
                         Grid.Column="1"
                         HorizontalOptions="Center" />
